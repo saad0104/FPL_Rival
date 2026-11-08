@@ -78,3 +78,47 @@ read and explained it. No unresolved errors.
 **Next task:** Day 2 — variables and basic data types. Store a fictional player's
 name, club, price, points, and availability, then print them with labels.
 **Status:** ✅ Day 1 complete.
+
+---
+
+## 2026-11-09 — Week 1, Day 2 (completed)
+
+**Topic:** Variables, assignment/reassignment, `str`/`int`/`float`/`bool`,
+variable naming, `type()`.
+**Learned:**
+- `name = value` stores a value; `=` is not "equals".
+- Reassignment replaces the previous value; it does not keep history.
+- `type()` reveals a value's type: `str`, `int`, `float`, `bool`.
+- `"9.8"` (str) and `9.8` (float) look similar when printed but behave
+  differently in calculations.
+- Naming: letters/digits/underscore, no leading digit, no hyphen, case-sensitive,
+  `snake_case` convention.
+- `print("Price:", price)` prints a label and the variable's value.
+
+**Practised:**
+- Predicted the result of reassignment (`price = 7.5` then `8.0` → `8.0`).
+- Built two player records in `week-01/day02_variables.py`:
+  Maxim De Cuyper (Brighton, 4.9, 75 pts) and Cole Palmer (Chelsea, 9.8, 47 pts).
+- Ran the file; `type(price)` returned `<class 'float'>`.
+
+**Key insight from the code:** both players were printed *before* the variables
+were reused for the second player. Reusing `player_name`, `club`, `price`, etc.
+overwrote the first record. If both prints were moved to the end, only Cole
+Palmer would appear. Separate names (or, later, lists/dicts) are needed to keep
+two players at once.
+
+**Errors:** None unresolved.
+**Still confusing:** The naming-rule question is still open (which of
+`player_name`, `2nd_player`, `player-price`, `class` to avoid, and why).
+**Next task:** Day 3 — arithmetic: points per match, points per £m, precedence,
+rounding.
+**Status:** ✅ Day 2 complete.
+
+---
+
+## Project notes (2026-11-09)
+
+- Added `Lesson/` with one markdown note per study day:
+  `day01_first_program.md`, `day02_variables.md`, and an index `README.md`.
+- Updated `PLAN.md` and `README.md` so every future day also gets a lesson note.
+- Day 2 output verified; no errors.

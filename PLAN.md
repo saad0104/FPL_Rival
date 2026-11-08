@@ -128,3 +128,5 @@ The daily entry in [LEARNING_LOG.md](LEARNING_LOG.md) records what was done.
 - No live API before Week 3 Day 5; no ML before Week 7.
 - Ask before installing system packages, using `sudo`, or pushing to GitHub.
 - Update `LEARNING_LOG.md` at the end of every session.
+- Write a lesson note in `Lesson/dayNN_topic.md` on the day it is taught
+  (concepts, examples, practice answers, implementation, takeaways, errors).

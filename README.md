@@ -26,6 +26,7 @@ python3 week-01/day01_hello.py
 FPL_Rival/
 ├── PLAN.md                    # 8-week, day-by-day curriculum
 ├── LEARNING_LOG.md            # running learning journal
+├── Lesson/                    # one markdown note per study day
 ├── week-01/ ... week-08/      # one folder per week, one file per lesson
 ├── data/                      # sample data and local cache (cache ignored)
 └── .venv/                     # project virtual environment (ignored)

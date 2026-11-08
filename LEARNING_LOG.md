@@ -49,4 +49,32 @@ what is still confusing, next task, status.
 **Still confusing:** (to be filled in by the learner)
 **Next task:** Add a third `print()` line with an FPL-related message, run it,
 and report the line and output.
-**Status:** Day 1 in progress — exercise pending.
+**Status:** Day 1 in progress — exercise pending. (Completed in the entry below.)
+
+---
+
+## 2026-11-09 — Week 1, Day 1 (completed)
+
+**Topic:** First program; `print()` and strings.
+**Learned:**
+- Quotes mark text; `print()` does not display them.
+- Strings are literal: case, spacing, and spelling are printed exactly.
+- `print("2 + 2")` shows text, not `4`.
+- A missing closing quote causes `SyntaxError: unterminated string literal`.
+
+**Practised:**
+- Predicted the output of three `print()` calls, including leading spaces.
+- Added a third line to `week-01/day01_hello.py`; corrected the spelling from
+  "Halland" to "Haaland".
+- Ran the file successfully.
+
+**Commands:**
+- `python3 week-01/day01_hello.py`
+- `source .venv/bin/activate` (optional; no packages needed yet)
+
+**Errors:** Mentor demonstrated the unterminated-string `SyntaxError`; learner
+read and explained it. No unresolved errors.
+**Still confusing:** None reported.
+**Next task:** Day 2 — variables and basic data types. Store a fictional player's
+name, club, price, points, and availability, then print them with labels.
+**Status:** ✅ Day 1 complete.

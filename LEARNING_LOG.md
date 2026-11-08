@@ -122,3 +122,39 @@ rounding.
   `day01_first_program.md`, `day02_variables.md`, and an index `README.md`.
 - Updated `PLAN.md` and `README.md` so every future day also gets a lesson note.
 - Day 2 output verified; no errors.
+
+---
+
+## 2026-11-09 — Week 1, Day 3 (completed)
+
+**Topic:** Arithmetic, order of operations, derived metrics.
+**Learned:**
+- Operators `+`, `-`, `*`, `/`, `//`, `%`, `**`.
+- `/` returns a decimal; `//` returns the whole part; `%` returns the remainder.
+- Parentheses override the normal order (`2 + 3 * 4` vs `(2 + 3) * 4`).
+- `round(value, 2)` limits decimals but does not force trailing zeros.
+- Points per match = points / matches; points per £m = points / price.
+
+**Practised:**
+- Predicted all five operator outputs correctly: 16, 36, 2.5, 2, 2.
+- Hand formulas: 63/9 = 7.0 points per match; 63/7.5 = 8.4 points per £m.
+- Built `week-01/day03_calculator.py` for Cole Palmer (47 pts, £9.8m, 10 matches).
+
+**Output:**
+```
+Player: Cole Palmer
+Average points per match: 4.7
+Points per £m: 4.8
+Rounded average: 4.7
+Rounded points per £m: 4.8
+```
+
+**Notes:** The two "rounded" print lines duplicate the two lines above them.
+The optional floor-division (`//`) line was not added; revisit in the Day 6
+review.
+
+**Errors:** None unresolved.
+**Still confusing:** None reported.
+**Next task:** Day 4 — `input()`, converting text to numbers, `ValueError`,
+and f-strings.
+**Status:** ✅ Day 3 complete.

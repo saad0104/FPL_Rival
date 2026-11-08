@@ -158,3 +158,37 @@ review.
 **Next task:** Day 4 — `input()`, converting text to numbers, `ValueError`,
 and f-strings.
 **Status:** ✅ Day 3 complete.
+
+---
+
+## 2026-11-09 — Week 1, Day 4 (completed)
+
+**Topic:** `input()`, type conversion, `ValueError`, f-strings.
+**Learned:**
+- `input()` always returns a `str`, even when the user types digits.
+- `int()` converts whole-number text; `float()` converts decimal text.
+- `int("7.5")` raises `ValueError: invalid literal for int()`.
+- `"9.8" * 2` repeats text (`9.89.8`); numbers must be converted first.
+- f-strings: `f"{value}"`, and `{value:.2f}` forces exactly two decimals.
+
+**Practised:**
+- Answered the `input()` type question — initially said `int`, corrected to
+  `str` after checking `type(age)`.
+- Identified that only `int("7.5")` errors; the other lines print 10, 8.5, 0.67.
+- Ran the interactive calculator with David Raya (£6.0m, 60 pts, 10 matches).
+
+**Output:**
+```
+David Raya: 6.00 points per match
+David Raya: 10.00 points per £m
+```
+
+**Implementation:** `week-01/day04_input.py` — four `input()` calls, `int()` /
+`float()` conversion, and two f-strings. Arithmetic verified: 60/10 = 6.00 and
+60/6 = 10.00.
+
+**Errors:** No runtime errors. One conceptual error: `input()` was thought to
+return `int`; corrected and demonstrated with `type()`.
+**Still confusing:** None reported after correction.
+**Next task:** Day 5 — comparisons and Boolean logic; compare two players.
+**Status:** ✅ Day 4 complete.

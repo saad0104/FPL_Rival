@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Generated data
+data/cache/
+*.sqlite
+*.db
+
+# Jupyter
+.ipynb_checkpoints/

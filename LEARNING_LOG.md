@@ -270,3 +270,34 @@ was deliberately moved to Week 2.
 **Errors:** None unresolved. Quiz: one rounding error, corrected.
 **Next task:** Week 2, Day 1 — `if` / `elif` / `else` and a value classifier.
 **Status:** ✅ Day 6 complete. Week 1 complete (6/48 sessions).
+
+---
+
+## 2026-11-09 — Week 2, Day 1 (completed)
+
+**Topic:** `if` / `elif` / `else`, indentation, order of conditions, truthiness.
+**Learned:**
+- Conditions are Boolean expressions; the line ends with `:` and the body is
+  indented 4 spaces.
+- Only the **first true branch** runs.
+- Place the strictest/highest threshold first; otherwise a broad condition
+  swallows the specific one.
+- `elif` means "else if"; `else` is optional and catches everything remaining.
+- Empty string, `0`, and `False` are falsy.
+- Missing indentation raises `IndentationError`.
+
+**Practised:**
+- Converted the demo from hard-coded values to `input()` with `float()` / `int()`.
+- Classified points per £m into four labelled practice bands.
+- Test 1: De Cuyper (4.9, 75, 10) → 15.31 → "excellent".
+- Test 2: Palmer (9.8, 47, 10) → 4.80 → "below average".
+- Both outputs verified correct.
+
+**Practice answers (not submitted; recorded in the lesson note):**
+- A → `medium`; B → `average` (order bug; move `>= 15` first); C → `free?`
+  (zero is falsy). These need checking in the Day 6 review.
+
+**Errors:** None at runtime.
+**Still confusing:** Nothing reported; practice-answer checking is pending.
+**Next task:** Week 2, Day 2 — lists: store a squad as a collection.
+**Status:** ✅ Day 7 complete (7/48 sessions).

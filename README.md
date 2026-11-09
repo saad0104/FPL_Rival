@@ -4,9 +4,8 @@ A Fantasy Premier League mini-league intelligence project, built as a learning
 project: understand your own squad, compare it with rivals, and make
 better-informed gameweek decisions.
 
-**Status:** Week 1 complete (6/48 sessions). Week 2 next: control flow,
-collections, functions. See [PLAN.md](PLAN.md) and
-[LEARNING_LOG.md](LEARNING_LOG.md).
+**Status:** Week 2 in progress (7/48 sessions): control flow, collections,
+functions. See [PLAN.md](PLAN.md) and [LEARNING_LOG.md](LEARNING_LOG.md).
 
 ## Environment
 

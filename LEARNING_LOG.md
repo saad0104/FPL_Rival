@@ -192,3 +192,46 @@ return `int`; corrected and demonstrated with `type()`.
 **Still confusing:** None reported after correction.
 **Next task:** Day 5 — comparisons and Boolean logic; compare two players.
 **Status:** ✅ Day 4 complete.
+
+---
+
+## 2026-11-09 — Week 1, Day 5 (completed)
+
+**Topic:** Comparison operators, Booleans, `and`/`or`/`not`.
+**Learned:**
+- `==`, `!=`, `>`, `<`, `>=`, `<=` return `True` or `False`.
+- `=` assigns; `==` compares.
+- `and` requires both sides; `or` requires one; `not` flips the result.
+- Comparisons are case-sensitive for strings.
+- Floats are approximate: `0.1 + 0.2 == 0.3` is `False`; compare rounded values.
+- `5 == 5.0` is `True` (numeric value).
+
+**Practised:**
+- Predicted five comparison results correctly: True, True, False, False, True.
+- Predicted three combined conditions correctly: True, True, False.
+- Extended `week-01/day05_comparison.py` to calculate points per £m from raw
+  points and price, then compare the two players.
+
+**Output:**
+```
+Cole Palmer vs Maxim De Cuyper
+A has better points per £m: False
+B is cheaper: True
+Both cost under £10m: True
+Either is above 10 points per £m: True
+They cost the same: False
+They cost different amounts: True
+A can be afforded and is above 4 ppm: True
+Not both conditions: False
+Both available:  True
+Is Palmer injured: False
+```
+
+**Notes:** Replaced hard-coded ppm with `points / price`. Added availability
+checks. Minor style issues: missing spaces around `/`; trailing space in
+`"Both available: "`. The label "injured" for `not available` is imprecise.
+
+**Errors:** None unresolved.
+**Still confusing:** None reported.
+**Next task:** Day 6 — Week 1 review quiz and the Player Analyzer v1 mini-project.
+**Status:** ✅ Day 5 complete.

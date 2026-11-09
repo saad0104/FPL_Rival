@@ -3,11 +3,18 @@
 
 player_a = "Cole Palmer"
 price_a = 9.8
-ppm_a = 4.8          # points per million
+points_a = 47
+available_a = True
+ppm_a = points_a/price_a         # points per million
+
 
 player_b = "Maxim De Cuyper"
 price_b = 4.9
-ppm_b = 15.31        # points per million
+points_b = 75
+available_b = True
+ppm_b = points_b / price_b      # points per million
+
+
 
 print(f"{player_a} vs {player_b}")
 print("A has better points per £m:", ppm_a > ppm_b)
@@ -19,3 +26,5 @@ print("They cost different amounts:", price_a != price_b)
 
 print("A can be afforded and is above 4 ppm:", price_a < 10 and ppm_a > 4)
 print("Not both conditions:", not (price_a < 10 and ppm_a > 4))
+print("Both available: ", available_a and available_b)
+print("Is Palmer injured:", not available_a)

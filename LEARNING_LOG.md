@@ -235,3 +235,38 @@ checks. Minor style issues: missing spaces around `/`; trailing space in
 **Still confusing:** None reported.
 **Next task:** Day 6 — Week 1 review quiz and the Player Analyzer v1 mini-project.
 **Status:** ✅ Day 5 complete.
+
+---
+
+## 2026-11-09 — Week 1, Day 6 (completed) — Week 1 finished
+
+**Topic:** Week 1 review quiz + FPL Player Analyzer v1.
+**Quiz:** 5/6 (target met).
+- Missed only `f"{2/3:.2f}"`: it is `0.67`, not `0.66`; `.2f` rounds.
+
+**Learned/revised:**
+- `.2f` rounds rather than truncating.
+- A small program is a pipeline: input → convert → calculate → format → compare.
+- Build and test one player before duplicating the block for the second.
+- Booleans can report comparisons without `if` statements.
+
+**Implementation:** `week-01/mini_project_player_analyzer.py`
+- Two players, five inputs each.
+- Points per match and points per £m, formatted to two decimals.
+- Four comparison outputs.
+- Verified with Enzo (7.5, 35 pts, 10 matches) and Mbuembo (7.0, 56 pts,
+  10 matches): 3.50 / 4.67 and 5.60 / 8.00; all comparisons correct.
+
+**Feedback addressed:** added player names, added comparison section, removed
+the stray trailing backslash, removed redundant `str()` wrappers.
+**Remaining polish:** `$` → `£`, `"Input prize"` → `"Price (£m): "`,
+unnecessary parentheses around `input()`, spaces around comparison operators,
+and clearer metric names (`ppm` currently means points per match).
+
+**Week 1 check:** print, strings, variables/types, arithmetic, input/conversion,
+comparisons/Booleans, mini-project, notes/log all complete. `if`/`elif`/`else`
+was deliberately moved to Week 2.
+
+**Errors:** None unresolved. Quiz: one rounding error, corrected.
+**Next task:** Week 2, Day 1 — `if` / `elif` / `else` and a value classifier.
+**Status:** ✅ Day 6 complete. Week 1 complete (6/48 sessions).

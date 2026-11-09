@@ -1,0 +1,390 @@
+{
+  "project": "FPL Rival",
+  "updated": "2026-11-09",
+  "lessons": [
+    {
+      "id": "W1D1",
+      "week": 1,
+      "day": 1,
+      "title": "First program, print(), strings",
+      "status": "done",
+      "completed": "2026-11-09"
+    },
+    {
+      "id": "W1D2",
+      "week": 1,
+      "day": 2,
+      "title": "Variables and data types",
+      "status": "done",
+      "completed": "2026-11-09"
+    },
+    {
+      "id": "W1D3",
+      "week": 1,
+      "day": 3,
+      "title": "Arithmetic and derived metrics",
+      "status": "done",
+      "completed": "2026-11-09"
+    },
+    {
+      "id": "W1D4",
+      "week": 1,
+      "day": 4,
+      "title": "Input, conversion, f-strings",
+      "status": "done",
+      "completed": "2026-11-09"
+    },
+    {
+      "id": "W1D5",
+      "week": 1,
+      "day": 5,
+      "title": "Comparisons and Boolean logic",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W1D6",
+      "week": 1,
+      "day": 6,
+      "title": "Review + Player Analyzer v1",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W2D1",
+      "week": 2,
+      "day": 1,
+      "title": "Conditional statements",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W2D2",
+      "week": 2,
+      "day": 2,
+      "title": "Lists",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W2D3",
+      "week": 2,
+      "day": 3,
+      "title": "Loops and accumulators",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W2D4",
+      "week": 2,
+      "day": 4,
+      "title": "Dictionaries",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W2D5",
+      "week": 2,
+      "day": 5,
+      "title": "Functions",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W2D6",
+      "week": 2,
+      "day": 6,
+      "title": "Review + Squad Summary v1",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W3D1",
+      "week": 3,
+      "day": 1,
+      "title": "Files and CSV",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W3D2",
+      "week": 3,
+      "day": 2,
+      "title": "JSON and nested data",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W3D3",
+      "week": 3,
+      "day": 3,
+      "title": "Errors and validation",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W3D4",
+      "week": 3,
+      "day": 4,
+      "title": "Modules and project layout",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W3D5",
+      "week": 3,
+      "day": 5,
+      "title": "HTTP and the first API call",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W3D6",
+      "week": 3,
+      "day": 6,
+      "title": "Review + cache bootstrap JSON",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W4D1",
+      "week": 4,
+      "day": 1,
+      "title": "Bootstrap endpoints",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W4D2",
+      "week": 4,
+      "day": 2,
+      "title": "Player fields and prices",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W4D3",
+      "week": 4,
+      "day": 3,
+      "title": "Fixtures and difficulty",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W4D4",
+      "week": 4,
+      "day": 4,
+      "title": "Entry, history, picks",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W4D5",
+      "week": 4,
+      "day": 5,
+      "title": "League standings and rivals",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W4D6",
+      "week": 4,
+      "day": 6,
+      "title": "Review + full dataset cache",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W5D1",
+      "week": 5,
+      "day": 1,
+      "title": "DataFrames",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W5D2",
+      "week": 5,
+      "day": 2,
+      "title": "Filtering and sorting",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W5D3",
+      "week": 5,
+      "day": 3,
+      "title": "Groupby and merge",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W5D4",
+      "week": 5,
+      "day": 4,
+      "title": "Derived metrics",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W5D5",
+      "week": 5,
+      "day": 5,
+      "title": "Squad comparison",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W5D6",
+      "week": 5,
+      "day": 6,
+      "title": "Review + league report",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W6D1",
+      "week": 6,
+      "day": 1,
+      "title": "Line and bar charts",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W6D2",
+      "week": 6,
+      "day": 2,
+      "title": "Scatter and saving figures",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W6D3",
+      "week": 6,
+      "day": 3,
+      "title": "SQL basics",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W6D4",
+      "week": 6,
+      "day": 4,
+      "title": "SQLite in Python",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W6D5",
+      "week": 6,
+      "day": 5,
+      "title": "Joins and aggregates",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W6D6",
+      "week": 6,
+      "day": 6,
+      "title": "Review + database CLI",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W7D1",
+      "week": 7,
+      "day": 1,
+      "title": "Descriptive statistics",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W7D2",
+      "week": 7,
+      "day": 2,
+      "title": "Baselines and train/test",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W7D3",
+      "week": 7,
+      "day": 3,
+      "title": "Linear regression",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W7D4",
+      "week": 7,
+      "day": 4,
+      "title": "Evaluation metrics",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W7D5",
+      "week": 7,
+      "day": 5,
+      "title": "Uncertainty and backtesting",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W7D6",
+      "week": 7,
+      "day": 6,
+      "title": "Review + prediction report",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W8D1",
+      "week": 8,
+      "day": 1,
+      "title": "Streamlit basics",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W8D2",
+      "week": 8,
+      "day": 2,
+      "title": "Data wiring and caching",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W8D3",
+      "week": 8,
+      "day": 3,
+      "title": "Rival comparison UI",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W8D4",
+      "week": 8,
+      "day": 4,
+      "title": "Insight cards",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W8D5",
+      "week": 8,
+      "day": 5,
+      "title": "Deployment and secrets",
+      "status": "todo",
+      "completed": ""
+    },
+    {
+      "id": "W8D6",
+      "week": 8,
+      "day": 6,
+      "title": "Review + final demo",
+      "status": "todo",
+      "completed": ""
+    }
+  ]
+}

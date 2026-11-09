@@ -130,3 +130,4 @@ The daily entry in [LEARNING_LOG.md](LEARNING_LOG.md) records what was done.
 - Update `LEARNING_LOG.md` at the end of every session.
 - Write a lesson note in `Lesson/dayNN_topic.md` on the day it is taught
   (concepts, examples, practice answers, implementation, takeaways, errors).
+- Tick the day in `tracker.py` (saved to `progress.json`) when it is complete.

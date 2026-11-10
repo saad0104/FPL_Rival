@@ -301,3 +301,49 @@ was deliberately moved to Week 2.
 **Still confusing:** Nothing reported; practice-answer checking is pending.
 **Next task:** Week 2, Day 2 — lists: store a squad as a collection.
 **Status:** ✅ Day 7 complete (7/48 sessions).
+
+---
+
+## 2026-11-10 — Week 2, Day 2 (completed)
+
+**Topic:** Lists — indexing, slicing, `append`, `remove`, membership, `len`.
+**Learned:**
+- A list stores many ordered values under one name.
+- Indexing starts at 0; `-1` is the last item; slices exclude the stop index
+  and return a new list.
+- `len()` gives the count; an invalid index raises `IndexError`.
+- `append` adds at the end; `remove` deletes by value and raises `ValueError`
+  if absent; both mutate the list.
+- `append` returns `None` — never assign its result.
+- `in` checks membership and returns a Boolean, so it works with `if`.
+
+**Practised:**
+- Predicted indexing, `len`, and slice results correctly; noted that a slice
+  prints as a list (`['Palmer', 'Haaland']`).
+- Explained the `IndexError` and the valid index range.
+- Predicted membership before and after `append`: False → True.
+- Extended `week-02/day02_lists.py` to add a player from `input()` and remove
+  one under an `if name in squad` guard.
+
+**Test 1:** added Isak, removed Saka — updated squad and count printed.
+**Test 2:** tried to remove "Nobody" — guard printed "not in the squad" without
+crashing.
+
+**Practised outputs:**
+```
+Enter a player: ['De Cuyper', 'Palmer', 'Haaland', 'Mbuembo', 'Saka', 'Isak']
+6
+Which player to remove? Saka is removed from the squad.
+True
+['De Cuyper', 'Palmer', 'Haaland']
+```
+
+**Polish:** the demo's own `append("Saka")` / `remove("Raya")` still run before
+user input; label the membership print; print the squad after removal; remove a
+whitespace-only line.
+
+**Errors:** None unresolved.
+**Still confusing:** None reported.
+**Next task:** Week 2, Day 3 — loops (`for`, `range`, accumulators) over the
+squad.
+**Status:** ✅ Day 8 complete (8/48 sessions).

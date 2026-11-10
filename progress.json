@@ -1,6 +1,6 @@
 {
   "project": "FPL Rival",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "lessons": [
     {
       "id": "W1D1",
@@ -63,8 +63,8 @@
       "week": 2,
       "day": 2,
       "title": "Lists",
-      "status": "todo",
-      "completed": ""
+      "status": "done",
+      "completed": "2026-11-10"
     },
     {
       "id": "W2D3",

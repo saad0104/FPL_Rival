@@ -71,11 +71,8 @@
       "week": 2,
       "day": 3,
       "title": "Loops and accumulators",
-      "status": "todo",
-      "completed": ""
-    },
-    {
-      "id": "W2D4",
+      "status": "done",
+      "completed": "2026-11-11"
       "week": 2,
       "day": 4,
       "title": "Dictionaries",

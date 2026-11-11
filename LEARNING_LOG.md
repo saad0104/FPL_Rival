@@ -347,3 +347,39 @@ whitespace-only line.
 **Next task:** Week 2, Day 3 — loops (`for`, `range`, accumulators) over the
 squad.
 **Status:** ✅ Day 8 complete (8/48 sessions).
+
+---
+
+## 2026-11-11 — Week 2, Day 3 (completed)
+
+**Topic:** `for` loops, `range`, `enumerate`, accumulators.
+**Learned:**
+- `for item in list` visits every element; the indented block runs once per item.
+- `range(n)` → 0 to n−1; `range(a, b)` → a to b−1; stop is always **excluded**.
+- `range(a, b, step)` skips by `step` (e.g. `range(2, 8, 2)` → 2, 4, 6).
+- Accumulator pattern: initialise to `0` before the loop, `+=` inside, read after.
+- `enumerate(seq, start=1)` yields `(counter, item)` pairs without needing `range(len(...))`.
+- f-string alignment: `:<n` left-aligns, `:>n` right-aligns in an n-character field.
+
+**Practised:**
+- Predicted four loop/range outputs before running (1/4 correct).
+- All four errors shared the same theme: forgot that `range` starts at 0 and
+  that the stop value is excluded (same rule as list slicing).
+
+**Implementation:** `week-02/day03_loops.py`
+- 15-player GW10 practice squad across three parallel lists (squad, points, positions).
+- Numbered squad with `enumerate`.
+- Total (775) and average (51.7) points via accumulator.
+- Formatted position/name/points table using `range(len(...))` and f-string alignment.
+- Top-scorer search: seed with index 0, loop from 1, update on each new best.
+- Top scorer: Salah (89 pts).
+
+**Key insight:** Three parallel lists (`squad`, `points`, `positions`) must be
+kept in sync manually — adding a player to one and forgetting the others causes
+either an `IndexError` or silent wrong data. Day 4 (dictionaries) fixes this by
+bundling all player data into one object.
+
+**Errors:** None at runtime. Four prediction errors — all corrected.
+**Still confusing:** Nothing reported.
+**Next task:** Week 2, Day 4 — Dictionaries: player as a single bundle.
+**Status:** ✅ Day 9 complete (9/48 sessions).
